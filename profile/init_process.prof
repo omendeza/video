@@ -1,0 +1,18 @@
+         1257889 function calls (1254647 primitive calls) in 51.358 seconds
+
+   Ordered by: cumulative time
+   List reduced from 1369 to 10 due to restriction <10>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.109    0.109   51.358   51.358 process2.py:77(init_process)
+        1    0.747    0.747   37.896   37.896 process2.py:19(extract_frames)
+     1062    0.026    0.000   31.789    0.030 functions.py:162(imwrite)
+     1062    0.010    0.000   31.270    0.029 imopen.py:284(write)
+     1062    0.009    0.000   30.746    0.029 format.py:467(append_data)
+     1062    0.721    0.001   30.731    0.029 pillow_legacy.py:533(_append_data)
+     2124    1.735    0.001   19.734    0.009 util.py:45(image_as_uint)
+     4248    0.012    0.000   14.786    0.003 {built-in method numpy.core._multiarray_umath.implement_array_function}
+     8496   14.653    0.002   14.653    0.002 {method 'reduce' of 'numpy.ufunc' objects}
+     1062    0.025    0.000   10.324    0.010 pillow_legacy.py:364(_append_data)
+
+

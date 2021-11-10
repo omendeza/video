@@ -1,0 +1,18 @@
+         153167 function calls (153157 primitive calls) in 16.702 seconds
+
+   Ordered by: cumulative time
+   List reduced from 74 to 10 due to restriction <10>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000   16.702   16.702 process1.py:31(numpy_array_frames)
+        1    0.032    0.032   16.639   16.639 process1.py:35(<listcomp>)
+    11762   16.606    0.001   16.606    0.001 {imread}
+        1    0.001    0.001    0.064    0.064 glob.py:10(glob)
+    11763    0.005    0.000    0.062    0.000 glob.py:41(_iglob)
+        1    0.001    0.001    0.033    0.033 glob.py:81(_glob1)
+    11762    0.014    0.000    0.024    0.000 posixpath.py:71(join)
+        1    0.005    0.005    0.016    0.016 fnmatch.py:48(filter)
+    11764    0.015    0.000    0.016    0.000 glob.py:116(_iterdir)
+    11763    0.003    0.000    0.005    0.000 glob.py:84(<genexpr>)
+
+
